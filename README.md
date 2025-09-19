@@ -16,7 +16,12 @@ Requirements:
     $ . .venv/bin/activate
     ~~~
 
-3. Run the sample:
+3. Install dependencies:
+    ~~~
+    $ pip install requirements.txt
+    ~~~
+
+4. Run the sample:
     ~~~
     $ pyton3 main.py
     ~~~
