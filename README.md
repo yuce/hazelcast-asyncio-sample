@@ -23,7 +23,7 @@ Requirements:
 
 4. Run the sample:
     ~~~
-    $ pyton3 main.py
+    $ python3 main.py
     ~~~
 
     
