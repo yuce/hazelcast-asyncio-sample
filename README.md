@@ -2,7 +2,7 @@
 
 Requirements:
 
-* Hazelcast cluster 5.x running on the default port
+* Hazelcast cluster 5.x running on the default address and port (`localhost:5701`)
 * Python 3.11 or better
 
 ## Usage
