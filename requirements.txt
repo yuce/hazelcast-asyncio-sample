@@ -1,1 +1,1 @@
-hazelcast-python-client @ git+https://github.com/yuce/hazelcast-python-client@170cf898aacc94193c399c9d19cfc202bd588978
+hazelcast-python-client @ git+https://github.com/yuce/hazelcast-python-client@asyncio-module
