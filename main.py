@@ -19,11 +19,10 @@ async def map_op(m: Map):
 
 async def amain():
     print("create the client")
-    client = HazelcastClient()
-    print("starting the client...")
-    await client._start()
-
+    client = await HazelcastClient.create_and_start()
+    print("get or create the map proxy")
     m = await client.get_map("amap")
+    print("operate on the map")
     await map_op(m)
 
 if __name__ == "__main__":
